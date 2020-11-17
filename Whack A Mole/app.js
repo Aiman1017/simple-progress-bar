@@ -43,4 +43,11 @@ function countDown(){
   }
 }
 
-let timerId = setInterval(countDown, 1000)
+let timerId = setInterval(countDown, 1000);
+
+function init() {
+  countDown().reset();
+  
+}
+// Call the function...
+init();
